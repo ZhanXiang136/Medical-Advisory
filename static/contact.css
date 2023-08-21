@@ -1,0 +1,187 @@
+.navbar {
+    z-index: 10000;
+    background-color: #053661 !important;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.nav-link, .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+.navbar {
+    z-index: 10000;
+    background-color: #053661 !important;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.nav-link, .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+
+.padding {
+    padding-top: 70px;
+}
+@media only screen and (min-width: 992px) {
+    .padding {
+        padding-top: 80px;
+    }
+}
+
+footer {
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  footer div{
+    text-align: left;
+  }
+  
+  footer .contact-card {
+    padding: 30px;
+    background-color: #053661;
+    border-radius: 50px;
+    overflow: hidden;
+    width: 50%;
+    color: white !important;
+  }
+  
+  footer input, footer textarea{
+    background-color: #fff;
+    border: none;
+    border-radius: 50px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  
+  footer textarea {
+    border-radius: 25px;
+    resize: none;
+    height: 100px;
+  }
+  
+  footer form {
+    display: flex;
+    flex-direction: column;
+  }
+  footer label {
+    margin-bottom: 3px;
+  }
+  
+footer input:focus, footer input:hover, footer textarea:focus, footer textarea:hover{
+    outline: none;
+    box-shadow: 0 0 3px 3px rgba(31, 110, 235, 1);
+}
+  
+footer button {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+  
+footer button:hover{
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+
+.bottom-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.svg-logo {
+    display: flex;
+}
+
+.svg-logo svg {
+    width: 25px;
+    height: 25px;
+    fill: #058bf8;
+}
+
+.svg-logo a {
+    margin-left: 15px;
+}
+
+
+.svg-logo a svg:hover {
+    transform: scale(1.25);
+    fill: white;
+    transition: transform .2s ease-in-out;
+}
+
+.form {
+    color: white !important;
+}

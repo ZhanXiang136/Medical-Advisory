@@ -1,0 +1,174 @@
+body {
+    font-size: 16px;
+    background-color: white;
+}
+
+.navbar {
+    z-index: 10000;
+    background-color: #053661 !important;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.nav-link, .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+.navbar {
+    z-index: 10000;
+    background-color: #053661 !important;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.nav-link, .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+
+.form-control {
+    border-radius: 50px;
+}
+
+.padding {
+    padding-top: 70px;
+}
+
+
+.carousel {
+    color: black;
+    margin: auto;
+}
+
+.d-block.w-100 {
+    height: calc(100vh - 70px) !important;
+}
+
+.mission{
+    font-family: 'Inter', sans-serif;
+    color: #00E5FF;
+}
+
+.font-color-white {
+    color: white;
+}
+
+.font-color-black {
+    color: black
+}
+
+.font-color-custom_1{
+    color: #00E5FF;
+}
+
+h5 {
+    margin-bottom: 20vh;
+}
+
+@media only screen and (min-width: 992px) {
+    .padding {
+        padding-top: 80px;
+    }
+
+    .d-block.w-100 {
+        height: calc(100vh - 80px) !important;
+    }
+}body {
+    font-size: 16px;
+}
+
+.navbar {
+    z-index: 10000;
+    background-color: #053661 !important;
+}
+
+.navbar-brand {
+    color:white;
+}
+
+.nav-link, .navbar-nav .nav-link.active {
+    color: white;
+}
+
+.carousel {
+    height: cal(100vh - 66px);
+    color: black;
+}
+
+.nav-button{
+    display: inline-block;
+    outline: 0;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+    padding: 9px 22px;
+    height: 50px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    line-height: normal;
+    background: linear-gradient(90deg,#5522fa 0,#0074e4 100%);
+    border-radius: 50px;
+    transition: color .2s ease,background-color .2s ease,box-shadow .2s ease;
+}
+
+.nav-button:hover {
+    box-shadow: 0 0 0 0.15rem #5ceace;
+}
+
+.nav-image {
+  height: 50px;
+  width: auto;
+}
+
+    

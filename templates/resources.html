@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="../static/resources.css" type="text/css" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Arvo&family=Inter&family=Playfair+Display&family=Quicksand:wght@500&display=swap');
+        </style>
+    </head>
+
+    <body>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="{{ url_for('index')}}">
+              <img class="nav-image" src="../static/assets/logo.png" alt="logo">
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('index')}}">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="{{ url_for('categories')}}">Categories</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('resources')}}">Resources</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('contact')}}">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search" action="/result" method="post">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search">
+              <button class="nav-button btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+        <div class="padding"></div>
+
+        <header>
+            <p id="title">Resources</p>
+            <p id="warning">This website is only for reference purposes </br>
+                IN CASE OF EMERGENCIES CALL 911</p>
+        </header>
+
+        
+        <br></br>
+
+        <div class="flex">
+            <img width="400px" height="100px" src= "https://pbs.twimg.com/profile_images/1189206666543280129/X_WtQnuR_400x400.jpg">
+            <p class="content">
+                <a href = "https://oasas.ny.gov/hopeline">OASAS HOPEline</a>
+                <br>
+                New York State's 24/7 problem gambling and chemical dependency hotline. For Help and Hope call 1-877-8-HOPENY or text HOPENY</p>
+        </div>
+
+        <div class="flex">
+            <img width="400px" height="100px" src= "https://nhcwny.org/cache/images/da2b6addd17ae1d382959aeb26afa70c.png">
+            <p>
+                <a href = "https://988lifeline.org/">988 Suicide & Crisis Lifeline</a>
+                <br>
+                If your life or someone else's is in imminent danger, please call 911. If you are in crisis and need immediate help, please call: 988</p>
+        </div>
+
+        <div class="flex">
+            <img width="400px" height="100px" src= "https://www.vibrant.org/wp-content/uploads/2016/12/NYC-Well_logos_violet-e1492714570551.jpg">
+            <p>
+                <a href = "https://nycwell.cityofnewyork.us/en/">NYC WELL</a>
+                <br>
+                New York City’s free, confidential support and crisis intervention for anyone seeking help for mental health and/or substance misuse concerns, available 24/7. Text “WELL” to 65173 or call 1-888-NYC-WELL.</p>
+        </div>
+
+    </body>
+</html>
