@@ -185,3 +185,9 @@ footer button:hover{
 .form {
     color: white !important;
 }
+
+.nav-image {
+    height: 50px;
+    width: auto;
+  }
+  

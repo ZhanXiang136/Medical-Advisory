@@ -10,6 +10,14 @@ body {
     width: 100%;
 }
 
+.navbar {
+    z-index: 10000;
+    background-color: #053661 !important;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+}
+
 .navbar-brand {
     color:white;
 }
@@ -97,3 +105,9 @@ body {
 .card {
     margin-top: 25px;
 }
+
+.nav-image {
+    height: 50px;
+    width: auto;
+  }
+  
